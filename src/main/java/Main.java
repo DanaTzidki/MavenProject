@@ -58,6 +58,7 @@ public class Main {
                     Coin ils = factory.getCoinInstance(Coins.ILS);
                     double CalculatedAmountI = ils.calculate(amount);
                     Result result1 = new Result();
+
                     myList.add(result1.result(Coins.USD, CalculatedAmountI));
                     System.out.println(amount + "  Shekels=" + CalculatedAmountI + " Dollars");
                     break;
