@@ -1,4 +1,5 @@
 public class Factory {
+    /*This method */
 
 
     public  Coin  getCoinInstance(Coins coins) {
