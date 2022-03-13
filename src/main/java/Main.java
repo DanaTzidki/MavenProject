@@ -1,3 +1,5 @@
+import java.awt.geom.IllegalPathStateException;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -106,6 +108,10 @@ public class Main {
                         System.out.println();}
                     /*Wrting results to the file*/
                     writeString(Paths.get(path), "results"+myList);
+                    /*Open  the file*/
+                    try{
+                    java.awt.Desktop.getDesktop().open(new File(path));}
+                    catch (IllegalPathStateException e){}
                     /*Case user chose to continue*/
                 } else if (again.equalsIgnoreCase("y")) {
                     x = 1;
