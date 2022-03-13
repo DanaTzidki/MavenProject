@@ -13,9 +13,9 @@ public class Main {
         /*Creating a list for the converting result*/
         ArrayList<String> myList = new ArrayList<String>();
         System.out.println("Welcome to currency conventer");
-        /*This veriable is used for repeating/not repeating the program*/
+        /*This variable is used for repeating/not repeating the program*/
         int x=0 ;
-        /*This String is used */
+        /*This String is used to repeat  */
         String again;
         /*Taking input from user in order to convert*/
         /*It has to be used at list once*/
